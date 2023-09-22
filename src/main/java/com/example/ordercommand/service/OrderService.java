@@ -25,7 +25,6 @@ public class OrderService {
             orderQueryClient.save(save);
             orderRepository.delete(save);
         }catch (Exception e){
-
         }
 
         // of query save 성공을 하면 delete
